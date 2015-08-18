@@ -1,0 +1,52 @@
+/* CSS Scheme Green
+ * 
+ * background - #86A136
+ * highlight - #C9E087
+ * content - #67821A
+ * dark - #4B6306
+ * 
+ * CSS Scheme Brown
+ * 
+ * background - #AA7C39
+ * Highlight - #ECC68E
+ * Content - #CB9F5F
+ * Dark - #895C1B
+ * 
+ * CSS Scheme blue
+ * 
+ * Background - #437593
+ * Highlight - #ffffff
+ * Content - #A4C1D2
+ * Dark - #164B6B
+ * 
+ * CSS Scheme Violet
+ * 
+ * background - #614E9E
+ * Highlight - #CCC4E4
+ * Content - #8F80C0
+ * Dark - #432E88
+ * 
+ * CSS Scheme Pink
+ * 
+ * Background - #D65B74
+ * Highlight - #F9D2D9
+ * Content - #F196A8
+ * Dark - #B92E49
+ * 
+ * CSS Scheme Yellow
+ * 
+ * background - #A49F3F
+ * Highlight - #FFF656
+ * Content - #D6CE4B
+ * Dark - #74702E
+ * 
+ * CSS Scheme Sandy
+ * 
+ * Background - #EDCE86
+ * Highlight - #FFF3D8
+ * Content - #FFE9B6
+ * Dark - #C5A24F
+*/
+
+body {
+	background: <?php echo $css_bg;?>;

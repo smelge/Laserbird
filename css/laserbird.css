@@ -1,0 +1,245 @@
+.laserbird {	
+	padding-top: 10px;	
+	width: 1000px;
+	margin: 0 auto;
+	background: rgb(107,107,107); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(107,107,107,1) 0%, rgba(204,204,204,1) 8%, rgba(204,204,204,1) 92%, rgba(107,107,107,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(107,107,107,1)), color-stop(8%,rgba(204,204,204,1)), color-stop(92%,rgba(204,204,204,1)), color-stop(100%,rgba(107,107,107,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(107,107,107,1) 0%,rgba(204,204,204,1) 8%,rgba(204,204,204,1) 92%,rgba(107,107,107,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(107,107,107,1) 0%,rgba(204,204,204,1) 8%,rgba(204,204,204,1) 92%,rgba(107,107,107,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(107,107,107,1) 0%,rgba(204,204,204,1) 8%,rgba(204,204,204,1) 92%,rgba(107,107,107,1) 100%); /* IE10+ */
+	background: linear-gradient(to right,  rgba(107,107,107,1) 0%,rgba(204,204,204,1) 8%,rgba(204,204,204,1) 92%,rgba(107,107,107,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b6b6b', endColorstr='#6b6b6b',GradientType=1 ); /* IE6-9 */
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.banner {
+	height: 150px;
+	width: 100%;
+	background: #ffffff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}	
+
+.navbar {
+	margin:5px 0;
+	height: 50px;
+	width: 100%;
+	background: #FFFFFF;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	border-radius: 0;
+	z-index:99;
+}
+
+.navbar ul {  
+	display: inline;
+	margin: 0 0 0 -35px;
+	height: 49px;	
+	list-style: none;
+}
+.navbar ul li {
+	font: bold 12px/18px sans-serif;
+	height: 49px;
+	width: 150px;
+	line-height:49px;
+	text-align: center;
+	display: inline-block;
+	margin-right: -4px;
+	position: relative;
+	padding:0 10px;
+	background: #FFFFFF;
+	cursor: pointer;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.navbar ul li:hover {
+	background: #555555;
+	color: #fff;
+}
+.navbar ul li ul {
+	padding: 0;
+	position: absolute;
+	top: 48px;
+	left: 35px;
+	width: 200px;
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-ms-transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	-transition: opacity 0.2s;
+}
+.navbar ul li ul li { 
+	background: #555555; 
+	display: block; 
+	color: #fff;
+	text-shadow: 0 -1px 0 #000000;
+}
+.navbar ul li ul li:hover { 
+	background: #666666;
+}
+
+.navbar ul li:hover ul {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+
+.content {
+	padding: 10px;
+	background: #ffffff;
+	font-family: 'Lucida Sans Unicode', 'Helvetica', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+}
+
+.leftcontent {
+	float: left;
+	width: 700px;
+}
+
+.lowerleftcontent {
+	float: left;
+	width: 700px;
+	height: 255px;
+	margin-top: 5px;
+}
+
+.rightcontent {
+	float: right;
+	width: 295px;
+	height: 620px;
+}
+
+.footer {
+	margin: 5px 0 20px 0;
+	height: 30px;
+	line-height: 10px;
+	width: 100%;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	text-align: center;
+}
+
+.carousel-caption {
+	border-radius: 20px;
+	border: 1px solid black;
+	background: rgba(255,255,255,0.75);
+	color: black;
+}
+
+.carousel-indicators li {
+	border: 1px solid black;
+	background: #000;
+}
+
+.contenthead {
+	width:100%;
+	margin: 5px 0;
+	padding: 10px 0;
+	background: #ffffff;
+	text-align:center;
+	font-family: 'Lucida Sans Unicode', 'Helvetica', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+}
+
+.content-column {
+	width: 242px;
+	display: inline-block;
+	background: #ffffff;
+	font-family: 'Lucida Sans Unicode', 'Helvetica', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+}
+
+.columnhead {	
+	padding:10px 0;
+	font-family: 'Lucida Sans Unicode', 'Helvetica', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	background: #333333;
+	color: #ffffff;
+	text-align:center;
+}
+
+.column-item {
+	text-align: center;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+.column-pricing {
+	text-align: center;
+	border: 1px solid black;
+	padding: 10px;
+	background: #333333;
+	color: #ffffff;
+}
+
+.mainhead {
+	padding:10px 0;
+	font-family: 'Lucida Sans Unicode', 'Helvetica', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	color: #ffffff;
+	text-align:center;
+	margin: 5px 0 0 0;
+	background: rgb(102,102,102); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(102,102,102,1) 0%, rgba(51,51,51,1) 94%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(102,102,102,1)), color-stop(94%,rgba(51,51,51,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(102,102,102,1) 0%,rgba(51,51,51,1) 94%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(102,102,102,1) 0%,rgba(51,51,51,1) 94%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(102,102,102,1) 0%,rgba(51,51,51,1) 94%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(102,102,102,1) 0%,rgba(51,51,51,1) 94%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#333333',GradientType=0 ); /* IE6-9 */	
+}
+
+.headbit {
+	font-family: 'Lucida Sans Unicode', 'Helvetica', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 10px 0 5px 0;
+	text-align: center;
+}
+
+.portfolio img{
+	margin: 5px 100px;
+	border: 2px solid black;
+	opacity: 0.5;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	-ms-transition: opacity 0.5s;
+	-o-transition: opacity 0.5s;
+	-transition: opacity 0.5s;
+}
+
+.portfolio img:hover{
+	opacity: 1;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	-ms-transition: opacity 0.5s;
+	-o-transition: opacity 0.5s;
+	-transition: opacity 0.5s;
+}
+
+hr {
+	margin: 5px 0;
+}
+
+.porthead {
+	font-family: 'Lucida Sans Unicode', 'Helvetica', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
