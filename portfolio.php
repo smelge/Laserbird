@@ -17,69 +17,52 @@
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="./js/bootstrap.min.js"></script>
 		<?php
-			$site = $_GET['site'];
+			$site = filter_input(INPUT_GET, 'site', FILTER_SANITIZE_SPECIAL_CHARS);
 		?>
+		
 	</head>
-	<body class="laserbird">
-		<?php include_once ('./includes/main-nav.php');?>
+	<body class="container-fluid laserbird">
 		<div id="main">
+			<div class="row">
+				<?php include_once ('./includes/main-nav.php');?>
+			</div>
+			
 			<?php
-				switch ($site){
-					case 'barnton':
-						echo '<div class="content">';
-							echo '<span class="porthead">Barnton Quarry Restoration Project</span><hr>';
-							echo "Barnton Quarry Restoration Project is awaiting upload to it's host.<br><br>";
-							echo "The site features a custom Content Management System to allow editing of all content areas, and a working Volunteer Application system.";
-							echo "This site is built in HTML, with a PHP framework. The CMS is made using PHP, with some AJAX for the Gallery category system.";
-						echo '</div>';
-						echo '<div class="portfolio">';
-							echo '<a href="http://www.laserbirdmedia.com/workspace/barnton" target="_blank">';
-								echo '<img class="img-responsive" src="./assets/barnton.jpg" alt="Barnton Quarry Restoration Project"/>';
-							echo '</a>';
-						echo '</div>';
-						break;
-					case 'swt':
-						echo '<div class="content">';
-							echo '<span class="porthead">Simply Wasting Time</span><hr>';
-							echo "Simply Wasting Time is a gaming website. A custom CMS allows the posting of articles and videos, as well as statistic tracking.<br><br>";
-							echo "It is primarily PHP based and all content is stored and generated from a database.";
-						echo '</div>';
-						echo '<div class="portfolio">';
-							echo '<a href="http://www.simplywastingtime.com" target="_blank">';
-								echo '<img class="img-responsive" src="./assets/swt.jpg" alt="Simply Wasting Time"/>';
-							echo '</a>';
-						echo '</div>';
-						break;
-					case 'traildog':
-						echo '<div class="content">';
-							echo '<span class="porthead">TrailDog</span><hr>';
-							echo "Traildog is a Mountain Bike trail mapping site. It allows users to upload GPS tracks, view them on a map and add them to the database, as well as generate height Profiles.<br><br>";
-							echo "The main function of the site is to provide a comprehensive database of riding locations and trails across the UK. It is still under development.";
-							echo "<br><br>It is database driven, and uses PHP for all functions.";
-						echo '</div>';
-						echo '<div class="portfolio">';
-							echo '<a href="http://www.traildog.co.uk" target="_blank">';
-								echo '<img class="img-responsive" src="./assets/traildog.jpg" alt="TrailDog"/>';
-							echo '</a>';
-						echo '</div>';
-						break;
-					case 'scotski':
-						echo '<div class="content">';
-							echo '<span class="porthead">Scotski</span><hr>';
-							echo "Scotski was built as part of a College project. It is a simple static site using PHP and HTML.";
-						echo '</div>';
-						echo '<div class="portfolio">';
-							echo '<a href="http://www.laserbirdmedia.com/workspace/scotski/" target="_blank">';
-								echo '<img class="img-responsive" src="./assets/scotski.jpg" alt="Scotski"/>';
-							echo '</a>';
-						echo '</div>';
-						break;
-					default:
-				}
+				$port_set = mysqli_query($dbport,"SELECT * FROM `portfolio` WHERE `pagelink` = '$site'");
+				$port = mysqli_fetch_array($port_set);
 			?>
+			<div class="row">
+				<div class="col-sm-12 mainhead">
+					<?php echo $port['title'];?>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 content">
+					<?php echo $port['description'];?>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 content">
+					<a href="<?php echo $port['site_url'];?>" target="_blank">
+						<img style="border:2px solid black;" class="img-responsive" src="./assets/<?php echo $port['image'];?>" alt="<?php echo $port['title'];?>"/>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 mainhead">
+					Features and Functionality
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 content">
+					<?php echo $port['features'];?>
+				</div>
+			</div>
 		</div>
-		<div class="footer content">
-			<?php include ('./includes/footer.php');?>
+		<div class="row">
+			<div class="footer content">
+				<?php include ('./includes/footer.php');?>
+			</div>
 		</div>
 	</body>	
 </html>
