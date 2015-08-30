@@ -21,7 +21,7 @@
 	<body class="laserbird">
 		<?php include_once ('./includes/main-nav.php');?>
 		<div id="main" class="content">
-			Content area
+			WE LIKE MEAT
 		</div>
 		<div class="footer content">
 			<?php include ('./includes/footer.php');?>
