@@ -5,7 +5,7 @@
 <div class="col-sm-12 banner">
 	<a href="./index.php">
 		<!-- Banner Image 1200 x 150 -->
-		<img src="./assets/logo.jpg" alt="Laserbird Logo"/>
+		<img class="img-responsive" src="./assets/logo.jpg" alt="Laserbird Logo" style="margin:0;"/>
 	</a>
 </div>
 <div class="col-sm-12 navbar">
