@@ -9,7 +9,7 @@
 		<meta name="author" content="Laserbird Media - Tavy Fraser">
 		<link rel="icon" href="">
 		
-		<title>Laserbird Media/Ready Salted</title>		
+		<title>Laserbird Media</title>		
 		<link rel="stylesheet" href="./css/bootstrap.min.css">
 		<link rel="stylesheet" href="./css/laserbird.css" type="text/css">
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
