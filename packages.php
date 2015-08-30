@@ -25,7 +25,7 @@
 		<?php
 			switch ($package){
 				case 'personal':?>
-					<div class="content" style="margin-top:10px;">
+					<div class="content col-sm-4" style="margin-top:10px;">
 						<div class="columnhead">
 							Personal Hosting
 						</div>
@@ -52,7 +52,7 @@
 					<?php
 					break;
 				case 'smallbusiness':?>
-					<div class="content-column">
+					<div class="content col-sm-4" style="margin-top:10px;">
 						<div class="columnhead">
 							Startup Business Hosting
 						</div>
@@ -77,7 +77,7 @@
 					<?php
 					break;
 				case 'standardbusiness':?>
-					<div class="content-column">
+					<div class="content col-sm-4" style="margin-top:10px;">
 						<div class="columnhead">
 							Business Hosting
 						</div>
@@ -102,7 +102,7 @@
 					<?php
 					break;
 				case 'largebusiness':?>
-					<div class="content-column">
+					<div class="content col-sm-4" style="margin-top:10px;">
 						<div class="columnhead">
 							Large Hosting
 						</div>
@@ -128,9 +128,12 @@
 					<?php
 					break;
 				case 'custom':?>
-					<div class="contenthead">
-						Website Upgrades and Repairs
+					<div class = "content col-sm-4" style="margin-top:10px;">
+						<div class="contenthead">
+							Website Upgrades and Repairs
+						</div>
 					</div>
+		<?php			
 			}
 		?>
 		<div class="footer content">

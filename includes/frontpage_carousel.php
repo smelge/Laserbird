@@ -28,15 +28,15 @@
 		<div class="item">
 			<img src="./assets/2.jpg" alt="...">
 			<div class="carousel-caption">
-				<h3>Small Business Minisites</h3>
-				<p>From &#163;100</p>
+				<h3>Small Business and Personal Websites</h3>
+				<p>From &#163;300</p>
 			</div>
 		</div>
 		<div class="item">
 			<img src="./assets/3.jpg" alt="...">
 			<div class="carousel-caption">
 				<h3>Hosting Packages</h3>
-				<p>From &#163;5.99/month</p>
+				<p>From &#163;5/month</p>
 			</div>
 		</div>
 		<div class="item">

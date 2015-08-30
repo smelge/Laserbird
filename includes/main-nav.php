@@ -18,7 +18,7 @@
 			</ul>
 		</li>
 		<a href="./quotation.php"><li>Get a Quote</li></a>
-		-->
+
 		<li>Portfolio
 			<ul>
 				<a href="./portfolio.php?site=barnton"><li>Barnton Quarry Restoration Project</li></a>
