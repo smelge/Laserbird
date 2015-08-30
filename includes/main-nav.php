@@ -1,10 +1,10 @@
-<div class="banner">
+<div class="col-sm-12 banner">
 	<a href="./index.php">
 		<!-- Banner Image 1000 x 150 -->
 		<img src="./assets/logo.jpg" alt="Laserbird Logo"/>
 	</a>
 </div>
-<div class="navbar">
+<div class="col-sm-12 navbar">
 	<ul>
 		<a href="./index.php"><li>Home</li></a>
 
