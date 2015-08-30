@@ -216,8 +216,8 @@ a:hover {
 }
 
 .portfolio img{
-	margin: 5px 100px;
 	border: 2px solid black;
+	margin:0 auto;
 	opacity: 0.5;
 	-webkit-transition: opacity 0.5s;
 	-moz-transition: opacity 0.5s;

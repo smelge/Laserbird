@@ -42,22 +42,34 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-12 content">
+				<div class="col-sm-12 content" style="padding:0;">
+				<div class="col-sm-8" style="padding:0;">
 					<a href="<?php echo $port['site_url'];?>" target="_blank">
 						<img style="border:2px solid black;" class="img-responsive" src="./assets/<?php echo $port['image'];?>" alt="<?php echo $port['title'];?>"/>
 					</a>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-12 mainhead">
-					Features and Functionality
+				<div class="col-sm-4">
+					<div class="row">
+						<div class="col-sm-12 mainhead" style="margin-top:0;">
+							Features and Functionality
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12" style="padding:0;">
+							<?php 
+								$features = explode(";",$port['features']);
+								foreach ($features as $part){
+									if ($part == true){
+										echo '<div class="column-item">';
+											echo $part;
+										echo '</div>';
+									}
+								}
+							?>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-12 content">
-					<?php echo $port['features'];?>
-				</div>
-			</div>
+			</div>			
 		</div>
 		<div class="row">
 			<div class="footer content">
