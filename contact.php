@@ -18,13 +18,21 @@
 		<script src="./js/bootstrap.min.js"></script>
 		
 	</head>
-	<body class="laserbird">
-		<?php include_once ('./includes/main-nav.php');?>
-		<div id="main" class="content">
-			WE LIKE MEAT
+	<body class="container-fluid laserbird">
+		<div id="main">
+			<div class="row">
+				<?php include_once ('./includes/main-nav.php');?>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 content">
+					WE LIKE MEATS
+				</div>
+			</div>
+			<div class="row">
+				<div class="footer content">
+					<?php include ('./includes/footer.php');?>
+				</div>
+			</div>
 		</div>
-		<div class="footer content">
-			<?php include ('./includes/footer.php');?>
-		</div>
-	</body>	
+	</body>		
 </html>

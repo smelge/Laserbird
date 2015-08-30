@@ -23,12 +23,15 @@
 			<div class="row">
 				<?php include_once ('./includes/main-nav.php');?>
 			</div>
-			<div class="col-sm-12 content">
-				CONTENTS MAY VARY
+			<div class="row">
+				<div class="col-sm-12 content">
+					CONTENTS MAY VARY
+				</div>
 			</div>
-		<div class="row">
-			<div class="footer content">
-			<?php include ('./includes/footer.php');?>
+			<div class="row">
+				<div class="footer content">
+				<?php include ('./includes/footer.php');?>
+				</div>
 			</div>
 		</div>
 	</body>	

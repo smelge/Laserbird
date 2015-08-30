@@ -32,9 +32,9 @@
 					}
 				?>
 			</ul>
-		</li>
-		<!--
+		</li>		
 		<a href="./contact.php"><li>Contact Us</li></a>
+		<!--
 		<a href="./support.php"><li>Support</li></a>
 		<a href="./client.php"><li>Client Login</li></a>		
 		-->
