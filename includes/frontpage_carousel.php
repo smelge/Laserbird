@@ -19,21 +19,21 @@
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner" role="listbox">
 		<div class="item active">
-			<img class="img-responsive" src="./assets/1.jpg" alt="...">
+			<img class="img-responsive" src="./assets/barnton.jpg" alt="...">
 			<div class="carousel-caption">
 				<h3>All types of sites built</h3>
 				<p>Static or Fully-Responsive</p>
 			</div>
 		</div>
 		<div class="item">
-			<img class="img-responsive" src="./assets/2.jpg" alt="...">
+			<img class="img-responsive" src="./assets/cpanel.jpg" alt="...">
 			<div class="carousel-caption">
 				<h3>Small Business and Personal Websites</h3>
 				<p>From &#163;300</p>
 			</div>
 		</div>
 		<div class="item">
-			<img class="img-responsive" src="./assets/3.jpg" alt="...">
+			<img class="img-responsive" src="./assets/serverroom.jpg" alt="...">
 			<div class="carousel-caption">
 				<h3>Hosting Packages</h3>
 				<p>From &#163;5/month</p>
@@ -47,7 +47,7 @@
 			</div>
 		</div>
 		<div class="item">
-			<img class="img-responsive" src="./assets/5.jpg" alt="...">
+			<img class="img-responsive" src="./assets/repairs.jpg" alt="...">
 			<div class="carousel-caption">
 				<h3>Website Upgrades and Repairs</h3>
 				<p>Revitalise and update older existing sites</p>

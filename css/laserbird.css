@@ -1,6 +1,7 @@
 .laserbird {	
 	padding-top: 10px;	
 	width: 90%;
+	max-width: 1200px;
 	margin: 0 auto;
 	background: rgb(107,107,107); /* Old browsers */
 	background: -moz-linear-gradient(left,  rgba(107,107,107,1) 0%, rgba(204,204,204,1) 8%, rgba(204,204,204,1) 92%, rgba(107,107,107,1) 100%); /* FF3.6+ */
