@@ -19,7 +19,7 @@
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner" role="listbox">
 		<div class="item active">
-			<img class="img-responsive" src="./assets/barnton.jpg" alt="...">
+			<img class="img-responsive" src="./assets/barntoncarousel.jpg" alt="...">
 			<div class="carousel-caption">
 				<h3>All types of sites built</h3>
 				<p>Static or Fully-Responsive</p>
