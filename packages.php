@@ -47,8 +47,6 @@
 						<div class="column-item">&pound;50/yr</div>
 						<div class="column-item">&pound;80/2yr</div>
 					</div>
-						<a class="btn btn-default" href="./demo1.php?scheme=neutral">Demo Schemes</a>
-					</div>
 					<?php
 					break;
 				case 'smallbusiness':?>
