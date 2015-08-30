@@ -24,128 +24,113 @@
 		<?php include_once ('./includes/main-nav.php');?>
 		<?php
 			switch ($package){
-				case 'minisite':?>
-					<div class="contenthead">
-						Minisite Building
+				case 'personal':?>
+					<div class="content" style="margin-top:10px;">
+						<div class="columnhead">
+							Personal Hosting
+						</div>
+						<div class="column-item">
+							<ins><b>Ideal For</b></ins><br>
+							Personal websites<br>
+							Family Photo Albums<br>
+							Blogging<br>
+							Personal Projects<br>
+						</div>
+						<div class="column-item">500 Mb Space</div>
+						<div class="column-item">1 Mailbox</div>
+						<div class="column-item">1 MySql Database</div>
+						<div class="column-item">Daily Backup</div>
+						<div class="column-item">Free Support</div>
+						<div class="column-item">Migration Assistance</div>
+						<div class="column-pricing">Pricing</div>
+						<div class="column-item">&pound;5/month</div>
+						<div class="column-item">&pound;50/yr</div>
+						<div class="column-item">&pound;80/2yr</div>
 					</div>
-					<div class="content">
-						<ul>
-							<li>Base Items
-								<ul>
-									<li>Frontpage</li>							
-									<li>Contact Page</li>
-								</ul>
-							</li>							
-							<li>Additional Modules
-								<ul>
-									<li>Responsive</li>
-									<li>Slideshow</li>
-									<li>Gallery</li>
-									<li>Social Media</li>
-									<li>Forum</li>
-									<li>E-Commerce</li>
-									<li>Frequently Asked Questions</li>
-									<li>Order Form</li>
-									<li>Blog</li>
-									<li>Guest Book</li>
-									<li>Wiki</li>
-									<li>Calendar</li>
-									<li>Content Management</li>
-								</ul>
-							</li>						
-						</ul>
 						<a class="btn btn-default" href="./demo1.php?scheme=neutral">Demo Schemes</a>
 					</div>
 					<?php
 					break;
-				case 'smallhost':?>
-					<div class="contenthead">
-						Hosting Plans
-					</div>	
-					<div class="content-column">
-						<div class="columnhead">
-							Personal Hosting
-						</div>
-						<div class="column-item">Ideal For: stuff</div>
-						<div class="column-item">200 Mb Space</div>
-						<div class="column-item">1 Mailbox</div>
-						<div class="column-item">0 MySql Databases</div>
-						<div class="column-item">Daily Backup</div>
-						<div class="column-item">Free Support</div>
-						<div class="column-item">Migration Assistance</div>
-						<div class="column-item">Pricing</div>
-						<div class="column-item">£5/month</div>
-						<div class="column-item">£50/yr</div>
-						<div class="column-item">£80/2yr</div>
-					</div>
+				case 'smallbusiness':?>
 					<div class="content-column">
 						<div class="columnhead">
 							Startup Business Hosting
 						</div>
-						<div class="column-item">Ideal For: stuff</div>
-						<div class="column-item">800 Mb Space</div>
+						<div class="column-item">
+							<ins><b>Ideal For</b></ins><br>
+							Small-scale Business Sites<br>
+							Larger scale Personal Projects<br>
+							Small E-Commerce<br>
+							<br>
+						</div>
+						<div class="column-item">1.5 Gb Space</div>
 						<div class="column-item">5 Mailbox</div>
 						<div class="column-item">3 MySql Databases</div>
 						<div class="column-item">Daily Backup</div>
 						<div class="column-item">Free Support</div>
 						<div class="column-item">Migration Assistance</div>
-						<div class="column-item">Pricing</div>
-						<div class="column-item">£10/month</div>
-						<div class="column-item">£100/yr</div>
-						<div class="column-item">£160/2yr</div>
+						<div class="column-pricing">Pricing</div>
+						<div class="column-item">&pound;10/month</div>
+						<div class="column-item">&pound;100/yr</div>
+						<div class="column-item">&pound;160/2yr</div>
 					</div>
+					<?php
+					break;
+				case 'standardbusiness':?>
 					<div class="content-column">
 						<div class="columnhead">
 							Business Hosting
 						</div>
-						<div class="column-item">Ideal For: stuff</div>
-						<div class="column-item">1.5 Gb Space</div>
+						<div class="column-item">
+							<ins><b>Ideal For</b></ins><br>
+							Established Businesses<br>
+							Medium Sized E-Commerce<br>
+							Large Websites<br>
+							<br>
+						</div>
+						<div class="column-item">5 Gb Space</div>
 						<div class="column-item">10 Mailbox</div>
 						<div class="column-item">10 MySql Databases</div>
 						<div class="column-item">Daily Backup</div>
 						<div class="column-item">Free Support</div>
 						<div class="column-item">Migration Assistance</div>
-						<div class="column-item">Pricing</div>
-						<div class="column-item">£30/month</div>
-						<div class="column-item">£330/yr</div>
-						<div class="column-item">£600/2yr</div>
+						<div class="column-pricing">Pricing</div>
+						<div class="column-item">&pound;30/month</div>
+						<div class="column-item">&pound;330/yr</div>
+						<div class="column-item">&pound;600/2yr</div>
 					</div>
+					<?php
+					break;
+				case 'largebusiness':?>
 					<div class="content-column">
 						<div class="columnhead">
 							Large Hosting
 						</div>
-						<div class="column-item">Ideal For: stuff</div>
-						<div class="column-item">2 Gb Space</div>
-						<div class="column-item">20 Mailbox</div>
+						<div class="column-item">
+							<ins><b>Ideal For</b></ins><br>
+							Established Large Businesses<br>
+							Database Driven Sites<br>
+							<br>
+							<br>
+						</div>
+						<div class="column-item">10 Gb Space</div>
+						<div class="column-item">30 Mailbox</div>
 						<div class="column-item">15 MySql Databases</div>
 						<div class="column-item">Daily Backup</div>
 						<div class="column-item">Free Support</div>
 						<div class="column-item">Migration Assistance</div>
-						<div class="column-item">Pricing</div>
-						<div class="column-item">£40/month</div>
-						<div class="column-item">£400/yr</div>
-						<div class="column-item">£750/2yr</div>						
+						<div class="column-pricing">Pricing</div>
+						<div class="column-item">&pound;50/month</div>
+						<div class="column-item">&pound;500/yr</div>
+						<div class="column-item">&pound;850/2yr</div>						
 					</div>
-					<?php
-					break;
-				case 'prebuilt':?>
-					<div class="contenthead">
-						Website Upgrades and Repairs
-					</div>
-					<div class="content">
-						Content
-					</div>
+				</div>
 					<?php
 					break;
 				case 'custom':?>
 					<div class="contenthead">
-						Custom Built Site Solutions
+						Website Upgrades and Repairs
 					</div>
-					<div class="content">
-						Content
-					</div>
-					<?php
-					break;
 			}
 		?>
 		<div class="footer content">

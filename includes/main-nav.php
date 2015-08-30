@@ -7,13 +7,14 @@
 <div class="navbar">
 	<ul>
 		<a href="./index.php"><li>Home</li></a>
-		<!--
-		<li>Web Design Packages
+
+		<li>Hosting Packages
 			<ul>
-				<a href="./packages.php?type=minisite"><li>Small Business</li></a>
-				<a href="./packages.php?type=smallhost"><li>Hosting</li></a>
-				<a href="./packages.php?type=custom"><li>Custom Websites</li></a>
-				<a href="./packages.php?type=prebuilt"><li>Pre-built Websites</li></a>						
+				<a href="./packages.php?type=personal"><li>Personal Hosting</li></a>
+				<a href="./packages.php?type=smallbusiness"><li>Small Business Hosting</li></a>
+				<a href="./packages.php?type=standardbusiness"><li>Standard Business Hosting</li></a>
+				<a href="./packages.php?type=largebusiness"><li>Large Business Hosting</li></a>	
+				<a href="./packages.php?type=custom"><li>Custom Hosting</li></a>
 			</ul>
 		</li>
 		<a href="./quotation.php"><li>Get a Quote</li></a>
