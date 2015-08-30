@@ -1,3 +1,7 @@
+<?php
+	include ('./includes/portfolio_database.php');
+	// $dbport
+?>
 <div class="col-sm-12 banner">
 	<a href="./index.php">
 		<!-- Banner Image 1200 x 150 -->
@@ -21,10 +25,12 @@
 
 		<li>Portfolio
 			<ul>
-				<a href="./portfolio.php?site=barnton"><li>Barnton Quarry Restoration Project</li></a>
-				<a href="./portfolio.php?site=swt"><li>Simply Wasting Time</li></a>
-				<a href="./portfolio.php?site=traildog"><li>Traildog</li></a>
-				<a href="./portfolio.php?site=scotski"><li>Scotski</li></a>
+				<?php
+					$port_set = mysqli_query($dbport,"SELECT * FROM `portfolio` WHERE `display` = 1 ORDER BY `title` ASC");
+					while ($port = mysqli_fetch_array($port_set)){
+						echo '<a href="./portfolio.php?site='.$port['pagelink'].'"><li>'.$port['title'].'</li></a>';
+					}
+				?>
 			</ul>
 		</li>
 		<!--

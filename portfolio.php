@@ -34,7 +34,7 @@
 						echo '</div>';
 						echo '<div class="portfolio">';
 							echo '<a href="http://www.laserbirdmedia.com/workspace/barnton" target="_blank">';
-								echo '<img src="./assets/barnton.jpg" alt="Barnton Quarry Restoration Project"/>';
+								echo '<img class="img-responsive" src="./assets/barnton.jpg" alt="Barnton Quarry Restoration Project"/>';
 							echo '</a>';
 						echo '</div>';
 						break;
@@ -46,7 +46,7 @@
 						echo '</div>';
 						echo '<div class="portfolio">';
 							echo '<a href="http://www.simplywastingtime.com" target="_blank">';
-								echo '<img src="./assets/swt.jpg" alt="Simply Wasting Time"/>';
+								echo '<img class="img-responsive" src="./assets/swt.jpg" alt="Simply Wasting Time"/>';
 							echo '</a>';
 						echo '</div>';
 						break;
@@ -59,7 +59,7 @@
 						echo '</div>';
 						echo '<div class="portfolio">';
 							echo '<a href="http://www.traildog.co.uk" target="_blank">';
-								echo '<img src="./assets/traildog.jpg" alt="TrailDog"/>';
+								echo '<img class="img-responsive" src="./assets/traildog.jpg" alt="TrailDog"/>';
 							echo '</a>';
 						echo '</div>';
 						break;
@@ -70,7 +70,7 @@
 						echo '</div>';
 						echo '<div class="portfolio">';
 							echo '<a href="http://www.laserbirdmedia.com/workspace/scotski/" target="_blank">';
-								echo '<img src="./assets/scotski.jpg" alt="Scotski"/>';
+								echo '<img class="img-responsive" src="./assets/scotski.jpg" alt="Scotski"/>';
 							echo '</a>';
 						echo '</div>';
 						break;
