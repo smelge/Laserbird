@@ -40,7 +40,7 @@
 			</div>
 		</div>
 		<div class="item">
-			<img class="img-responsive" src="./assets/4.jpg" alt="...">
+			<img class="img-responsive" src="./assets/dreamweaver.jpg" alt="...">
 			<div class="carousel-caption">
 				<h3>Custom Websites</h3>
 				<p>From &#163;500</p>
